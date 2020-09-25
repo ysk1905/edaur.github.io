@@ -1,1 +1,1 @@
-https://ysk1905.github.io/ava.github.io/
+https://ysk1905.github.io/edaur.github.io/
