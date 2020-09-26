@@ -15,10 +15,17 @@
         $count = mysqli_num_rows($result);  
     
         if($count == 1){  
-            echo '<script>alert("Login Successful!!")</script>';
-            header("Location: ../index.html");
+            echo '
+                <script>
+                    alert("Login Successful!!");
+                    window.location.href = "../index.html";
+                </script>';
         }  
         else{  
-            echo '<script>alert(" Login failed. Invalid username or password.")</script>';  
+            echo '
+                <script>
+                    alert(" Login failed. Invalid username or password.");
+                    window.location.href = "../login.html";
+                </script>';
         }     
 ?>  
